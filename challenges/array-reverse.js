@@ -18,7 +18,7 @@ function reverseArray (arrraty) {
         revarsedArr.push(arrraty[arrraty.length-1]);
         arrraty.pop();
         return reverseArray (arrraty);
-    };  
+    };
 };
 reverseArray (arr)
 console.log(revarsedArr);
