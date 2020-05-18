@@ -10,4 +10,4 @@ Using the recharging callbacks.
 Learn how to reverse an array in different ways.
 
 ## Solution
-![UML Diagram](./whiteboards/whiteboardChall01.jpg)
+![UML Diagram](./assets/reverseAnArray.jpg)
