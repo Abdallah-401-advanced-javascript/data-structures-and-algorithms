@@ -2,12 +2,14 @@
 Code challenges 401
 
 # Insert Shift Array
-This challenge is about (Insert/Shift) array elements, whatever the tall of it, and without using built-in functions.
+This challenge is about (array-binary-search), by check the index for the element and either or exist or not in the array.
 ## Challenge
-Our function should accept both even and odd arrays.
+Showing -1 if the element does not exist in the array.
 
 ## Approach & Efficiency
-Learn how to (Insert/Shift) an array in different ways.
+Learn how to do (array-binary-search) for any array.
+
+##![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/runs/691527994?check_suite_focus=true)
 
 ## Solution
-![UML Diagram](./assets/array-shift.jpg)
+![UML Diagram](./assets/array-binary-search.jpg)
