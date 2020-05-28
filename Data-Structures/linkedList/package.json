@@ -1,0 +1,19 @@
+{
+  "name": "linkedList",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linked-list.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "eslint": "^7.1.0"
+  }
+}
