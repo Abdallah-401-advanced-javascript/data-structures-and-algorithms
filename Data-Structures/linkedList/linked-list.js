@@ -7,12 +7,7 @@ class LinkedList {
   constructor() {
     this.head = null;
   }
-  // TARGET: 1 -> 2 -> 3-> null
-  // null
-  // 1 ->null
-  // when the next is null (tail) add the new value .
-  // 1->2 ->null
-  // 1->2->3->null
+
   append(value) {
     let node = new Node(value);
     // if there is no head .
@@ -57,14 +52,55 @@ class LinkedList {
     str+=' NULL';
     return str;
   }
+
+
+  insertAfter(value, newVal){
+    let node = new Node(newVal);
+    // if there is no head .
+    if (!this.head) {
+      this.head = node;
+      return this;
+    }   
+    let currentNode=this.head;
+    while(currentNode.value!==value){
+      currentNode=currentNode.next;
+    }
+    let oldNext = currentNode.next;
+    currentNode.next=node;
+    currentNode.next.next=oldNext;
+  }
+
+
+  insertBefore(value, newVal){
+    let node = new Node(newVal);
+    // if there is no head .
+    if (!this.head) {
+      this.head = node;
+      return this;
+    }   
+    let currentNode=this.head;
+    if (currentNode.value!==value) {
+      while(currentNode.next.value!==value){
+        currentNode=currentNode.next;
+      }
+      let oldNext = currentNode.next;
+      currentNode.next=node;
+      currentNode.next.next=oldNext;
+    }else{this.insert(newVal);}
+  }
 }
+
 let play = new LinkedList();
 play.append(1);
 play.append(2);
-play.insert(3);
+play.append(5);
+play.append(5);
+// play.insert(3);
 console.log(play.includes(3));
 console.log(play.includes(4));
 console.log(play.includes(1));
+play.insertAfter(2,4);
+// play.insertBefore(1,4);
 console.log(play.toString());
-// console.log(play)
+// console.log(play);
 module.exports = LinkedList;
