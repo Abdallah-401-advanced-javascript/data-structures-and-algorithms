@@ -1,15 +1,16 @@
 # data-structures-and-algorithms
 Code challenges 401 - Data-Structures
 
-# Linked List class-06
-This is about how to utilize the linked list data-structure methods by appending a new node, insert a new node, include a new node, add special string, add node after/before another node.
+# Linked List Class-07
+This is about how to utilize the linked list data-structure methods by getting a specific node by value "count from the end", then return that node value.
+
 ## Challenge
-Testing use the node and the node.next in the same time.
+Testing uses the node and the node.next at the same time and return an exception if value not found.
 
 ## Approach & Efficiency
 Learn how to use (Linked List) as Data-Structures.
 
-## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/actions/runs/120864250)
+## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/actions/runs/120866861)
 
 ## Solution
-![UML Diagram](./assets/Class-06.jpg)
+![UML Diagram](./assets/Class-07.jpg)
