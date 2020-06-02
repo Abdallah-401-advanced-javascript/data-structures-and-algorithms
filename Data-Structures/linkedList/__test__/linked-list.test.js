@@ -84,6 +84,20 @@ describe('Linked List', ()=> {
     // console.log('next: ',next , ' secondValue: ',secondValue);
     // expect(next.value).toEqual(secondValue);
   });
-  
-    
+
+  it('checkFromEnd()', ()=> {
+    let list = new LinkedList();
+    expect(list.checkFromEnd()).toEqual('Exception');
+
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    let testValue1 = 0;
+    let testValue2 = -1;
+    let testValue3 = 10;
+    expect(list.checkFromEnd(testValue3)).toEqual('Exception');
+    expect(list.checkFromEnd(testValue2)).toEqual('Exception');
+    expect(list.checkFromEnd(testValue1)).toEqual(3);
+
+  });    
 });
