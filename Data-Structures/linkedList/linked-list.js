@@ -1,11 +1,11 @@
 'use strict';
 
 const Node = require('./node');
-
 class LinkedList {
     
   constructor() {
     this.head = null;
+    this.arr=[];
   }
 
   append(value) {
@@ -22,6 +22,8 @@ class LinkedList {
     }
     currentNode.next = node;
   }
+
+  
   insert(value) {
     let node = new Node(value);
     if (!this.head) {
@@ -32,6 +34,8 @@ class LinkedList {
     this.head=node;
     this.head.next = oldNode;
   }   
+
+
   includes(value) {
     let currentNode=this.head;
     while(currentNode) {
@@ -40,12 +44,15 @@ class LinkedList {
       }
       currentNode = currentNode.next;
     }return false;
-
   }
+
+  
   toString() {
     let str='';
     let currentNode = this.head;
+    this.arr=[];
     while(currentNode) {
+      this.arr.push(currentNode.value);
       str+=`{${ currentNode.value }} ->`;
       currentNode = currentNode.next;
     }
@@ -88,6 +95,12 @@ class LinkedList {
       currentNode.next.next=oldNext;
     }else{this.insert(newVal);}
   }
+
+  
+  checkFromEnd(value){
+    this.toString();
+    return this.arr[this.arr.length-value-1] ||'Exception';
+  }
 }
 
 let play = new LinkedList();
@@ -102,5 +115,7 @@ console.log(play.includes(1));
 play.insertAfter(2,4);
 // play.insertBefore(1,4);
 console.log(play.toString());
+console.log(play.arr);
+console.log(play.checkFromEnd(2));
 // console.log(play);
 module.exports = LinkedList;
