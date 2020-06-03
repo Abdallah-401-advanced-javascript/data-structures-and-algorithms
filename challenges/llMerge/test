@@ -1,0 +1,19 @@
+mergeLists(first,second) {
+    let firstCurrentNode = first.head;
+    let secondCurrentNode = second.head;
+    while(firstCurrentNode  || secondCurrentNode){
+      let b = firstCurrentNode.next;
+      let q = secondCurrentNode.next;
+      firstCurrentNode.next = secondCurrentNode;
+      secondCurrentNode.next = b;
+      firstCurrentNode = b;
+      secondCurrentNode = q;
+      console.log('@@@@@@@@@@@@@@@@@@@@',first);
+      console.log('@@@@@@@@@@@@@@@@@@@@',second);
+
+    }
+    return first;
+
+    
+  }
+}
