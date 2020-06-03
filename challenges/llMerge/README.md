@@ -12,4 +12,4 @@ Learn how to use (Linked List) as Data-Structures.
 ## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/actions/runs/120864250)
 
 ## Solution
-![UML Diagram](../../../assets/Class-08.jpg)
+![UML Diagram](../../assets/Class-08.jpg)
