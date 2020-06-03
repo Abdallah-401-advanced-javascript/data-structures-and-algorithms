@@ -1,0 +1,12 @@
+  reverseLl(first) {
+    // console.log(first);
+    let pastNode=null;
+    let currentNode=first.head;
+    while(currentNode) {
+      let NextNode = currentNode.next;
+      currentNode.next = pastNode;
+      pastNode=currentNode;
+      currentNode=NextNode;
+    }
+    return pastNode;
+  }
