@@ -106,9 +106,7 @@ class LinkedList {
   mergeLists(first,second) {
     let firstCurrentNode = first.head;
     let secondCurrentNode = second.head;
-    let str = 'head';
     while(firstCurrentNode  && secondCurrentNode){
-      str = str +' -> '+ firstCurrentNode.value + ' -> ' + secondCurrentNode.value ;
       let firstNext = firstCurrentNode.next;
       let SecoundNext = secondCurrentNode.next;
       secondCurrentNode.next = firstNext;
@@ -116,7 +114,6 @@ class LinkedList {
       firstCurrentNode = firstNext;
       secondCurrentNode = SecoundNext;
     }
-    str+=(firstCurrentNode)?` -> ${firstCurrentNode.value} -> X` :' -> X';
     return first.toString(); 
   }
 }
