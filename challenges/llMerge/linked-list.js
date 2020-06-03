@@ -48,15 +48,15 @@ class LinkedList {
 
   
   toString() {
-    let str='';
+    let str='head -> ';
     let currentNode = this.head;
     this.arr=[];
     while(currentNode) {
       this.arr.push(currentNode.value);
-      str+=`{${ currentNode.value }} ->`;
+      str+=`{${ currentNode.value }} -> `;
       currentNode = currentNode.next;
     }
-    str+=' NULL';
+    str+='NULL';
     return str;
   }
 
@@ -106,9 +106,7 @@ class LinkedList {
   mergeLists(first,second) {
     let firstCurrentNode = first.head;
     let secondCurrentNode = second.head;
-    let str = 'head';
     while(firstCurrentNode  && secondCurrentNode){
-      str = str +' -> '+ firstCurrentNode.value + ' -> ' + secondCurrentNode.value ;
       let firstNext = firstCurrentNode.next;
       let SecoundNext = secondCurrentNode.next;
       secondCurrentNode.next = firstNext;
@@ -116,8 +114,7 @@ class LinkedList {
       firstCurrentNode = firstNext;
       secondCurrentNode = SecoundNext;
     }
-    str+=(firstCurrentNode)?` -> ${firstCurrentNode.value} -> X` :' -> X';
-    return str; 
+    return first.toString(); 
   }
 }
 
@@ -134,12 +131,12 @@ first.append(3);
 console.log(first.includes(3));
 console.log(first.includes(4));
 console.log(first.includes(1));
-first.insertAfter(2,4);
-first.insertBefore(1,4);
+// first.insertAfter(2,4);
+// first.insertBefore(1,4);
 console.log(first.toString());
 
 // console.log(first.arr);
-console.log(first.checkFromEnd(2));
+// console.log(first.checkFromEnd(2));
 
 // second linked-list=========>
 let second = new LinkedList();
@@ -149,4 +146,5 @@ second.append(7);
 second.append(8);
 console.log(second.toString());
 console.log(first.mergeLists(first,second));
+// console.log(first.mergeLists(first,second));
 module.exports = LinkedList;

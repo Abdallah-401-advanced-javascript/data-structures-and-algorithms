@@ -47,11 +47,11 @@ describe('Linked List', ()=> {
 
   it('toString()', ()=> {
     let list = new LinkedList();
-    expect(list.toString()).toEqual(' NULL');
+    expect(list.toString()).toEqual('head -> NULL');
 
     let initialValue = 1;
     list.append(initialValue);
-    expect(list.toString()).toEqual(`{${initialValue}} -> NULL`);
+    expect(list.toString()).toEqual(`head -> {1} -> NULL`);
   });
 
   it('insertAfter()', ()=> {
@@ -105,7 +105,7 @@ describe('Linked List', ()=> {
     second.append(6);
     second.append(7);
     second.append(8);
-    expect(first.mergeLists(first,second)).toEqual('head -> 1 -> 5 -> 2 -> 6 -> 3 -> 7 -> 4 -> 8 -> X');
+    expect(first.mergeLists(first,second)).toEqual('head -> {1} -> {5} -> {2} -> {6} -> {3} -> {7} -> {4} -> {8} -> NULL');
   });
 
   it('mergeLists() case 2', ()=> {
@@ -119,7 +119,7 @@ describe('Linked List', ()=> {
     second.append(6);
     second.append(7);
     second.append(8);
-    expect(first.mergeLists(first,second)).toEqual('head -> 1 -> 5 -> 2 -> 6 -> 3 -> 7 -> X');
+    expect(first.mergeLists(first,second)).toEqual('head -> {1} -> {5} -> {2} -> {6} -> {3} -> {7} -> NULL');
   });
 
   it('mergeLists() case 3', ()=> {
@@ -135,6 +135,6 @@ describe('Linked List', ()=> {
     second.append(6);
     second.append(7);
     second.append(8);
-    expect(first.mergeLists(first,second)).toEqual('head -> 1 -> 5 -> 2 -> 6 -> 3 -> 7 -> 4 -> 8 -> 9 -> X');
+    expect(first.mergeLists(first,second)).toEqual('head -> {1} -> {5} -> {2} -> {6} -> {3} -> {7} -> {4} -> {8} -> {9} -> NULL');
   });
 });
