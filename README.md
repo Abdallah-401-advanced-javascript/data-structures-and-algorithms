@@ -19,7 +19,7 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 07    | [ll-kth-from-end](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/14).
  class 08    | [Merge two linked lists](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/tree/ll-merge/challenges/llMerge).   
  class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/184Ma-odA2y-AIZ1nPaBUPjw2GpIs80gaB6DIF5mVQPA/edit#gid=0).
- class 10    | [Stacks and Queues](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/README.md).
+ class 10    | [Stacks and Queues](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/18).
 
 
 
