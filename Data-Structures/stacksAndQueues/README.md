@@ -1,25 +1,16 @@
-# Module 2: DS&A / Recap
+# data-structures-and-algorithms
+Code challenges 401 - Data-Structures
 
-Add the finishing touches to your API Server
+# Stacks and Queues-10
+This is about how to utilize the Stacks and Queues data-structure methods (push/pop/peek/isEmpty/encueue/dequeue).
+## Challenge
+Solve the challenge with O(1) space/time, using node once and array once.
 
-Implement a new Data Structure
+## Approach & Efficiency
+Learn how to use (Stacks and Queues) as Data-Structures.
 
-## Learning Objectives
+## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/actions/runs/120864250)
 
-### Students will be able to
-
-#### Describe and Define
-
-- Data Structure Implementation -  <!-- To Be Completed By Instructor -->
-
-#### Execute
-
-- API Deployed with full features/functionality
-  - Consistent Model Interface
-  - Dynamic Model Routing
-  - Fully Tested
-  - Fully Documented
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
+## Solution
+![UML Diagram](../../assets/Stacks and Queues1.jpg)
+![UML Diagram](../../assets/Stacks and Queues2.jpg)
