@@ -15,7 +15,7 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 03    | [array-binary-search](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/8).
  class 04    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1s9HPoCWox_9Gi-qM_fDYhcnZ4ZpP7465zM-Z9owYXe8/edit#gid=0).
  class 05    | [Linked List Implementation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/9).
- class 06    | [ll-insertions](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/14).
+ class 06    | [ll-insertions](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/15).
  class 07    | [ll-kth-from-end](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/14).
  class 08    | [Merge two linked lists](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/tree/ll-merge/challenges/llMerge).   
  class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/184Ma-odA2y-AIZ1nPaBUPjw2GpIs80gaB6DIF5mVQPA/edit#gid=0).
