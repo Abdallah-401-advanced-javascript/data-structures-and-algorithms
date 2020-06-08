@@ -8,7 +8,7 @@ Solve the challenge as a node(obj), but it was hard and no time for now maybe I 
 ## Approach & Efficiency
 Learn more about how the (Stacks and Queues) Data-Structures are realated to each other.
 
-## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/runs/744611896?check_suite_focus=true)
+## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/20/checks?check_run_id=748532367)
 
 ## Solution
 ![UML Diagram](../../assets/queue-with-stacks.jpg)
