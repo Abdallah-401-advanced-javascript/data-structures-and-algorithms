@@ -1,4 +1,5 @@
 'use strict';
+//mock interview
 var testArr = [[1,2,3],
                [1,6,3],
                [1,3,3]];
