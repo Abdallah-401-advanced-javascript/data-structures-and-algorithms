@@ -9,7 +9,7 @@ Solve the challenge with O(1) space.
 ## Approach & Efficiency
 Learn more about uses of queue.
 
-## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/runs/744611896?check_suite_focus=true)
+## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/24/checks?check_run_id=769157650)
 
 ## Solution
 ![UML Diagram](../../assets/First-in-First-out-Animal-Shelter.jpg)
