@@ -25,8 +25,8 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 13    | [Multi-bracket Validation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/multi-bracket-validation/challenges/multiBracketValidation/README.md).
  class 14    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1MbYbl9_-rlk8_cDj-Njqyk6usfxbyWkUKEWHHzhvqOY/edit?usp=sharing).
  class 15    | [Binary Tree and BST Implementation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/tree/README.md).
- class 16    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/multi-bracket-validation/challenges/fizzBuzzTree/README.md). 
-
+ class 16    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/challenges/fizzBuzzTree/README.md). 
+ class 17    | [Breadth-first-Traversal](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/breadth-first-tree/README.md). 
 
 
  ![Logic](./assets/Sloving-porb.gif)
