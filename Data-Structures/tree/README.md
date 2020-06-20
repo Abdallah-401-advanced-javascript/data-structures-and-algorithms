@@ -7,8 +7,6 @@ This is about how to utilize the Tree data-structure with (preOrder()/inOrde()/p
 Solve the add max() methode to BST.
 ## Approach & Efficiency
 Learn more about how the (Tree and BST) Data-Structures.
-
 ## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/20/checks?check_run_id=748532367)
-
 ## Solution
 ![UML Diagram](../../assets/Binary-Tree-and-BST.jpg)
