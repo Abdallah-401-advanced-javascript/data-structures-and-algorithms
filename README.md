@@ -21,12 +21,11 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/184Ma-odA2y-AIZ1nPaBUPjw2GpIs80gaB6DIF5mVQPA/edit#gid=0).
  class 10    | [Stacks and Queues](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/18).
  class 11    | [queue-with-stacks](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/queue-with-stacks/Data-Structures/queueWithStacks/README.md).
- class 12    | [First-in, First out Animal Shelter](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/challenges/fifoAnimalShelter/README.md). 
+ class 12    | [First-in, First out Animal Shelter](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/fifo-animal-shelter/challenges/fifoAnimalShelter/README.md). 
  class 13    | [Multi-bracket Validation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/multi-bracket-validation/challenges/multiBracketValidation/README.md).
  class 14    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1MbYbl9_-rlk8_cDj-Njqyk6usfxbyWkUKEWHHzhvqOY/edit?usp=sharing).
- class 15    | [Binary Tree and BST Implementation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/tree/README.md).
- class 16    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/challenges/fizzBuzzTree/README.md). 
- class 17    | [Breadth-first-Traversal](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/breadth-first-tree/README.md). 
+ class 15    | [Binary Tree and BST Implementation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/tree/Data-Structures/tree/README.md). 
+
 
 
  ![Logic](./assets/Sloving-porb.gif)
