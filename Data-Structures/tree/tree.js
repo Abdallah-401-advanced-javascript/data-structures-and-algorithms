@@ -58,17 +58,6 @@ class BinaryTree {
 
     return results;
   }
-  add(){
-
-
-
-  }
-
-  contains(){
-
-  }
-
-
 }
    
 const Node = require('./node');
