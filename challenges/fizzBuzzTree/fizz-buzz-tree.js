@@ -78,7 +78,29 @@ class BinaryTree {
       result.push(node.value);
     }
   }
-
+  createNewTree(oldNode){
+    if(oldNode){      
+      if(oldNode.value && oldNode.value % 5 == 0){
+        oldNode.value = 'Buzz';
+      }else if (oldNode.value && oldNode.value % 3 == 0){
+        oldNode.value = 'Fizz';
+      }
+      else if(oldNode.value && oldNode.value % 3 == 0 && oldNode.value % 5 == 0){
+        oldNode.value = 'FizzBuzz';
+      }else{
+        oldNode.value = oldNode.value.toString();
+      }
+      this.createNewTree(oldNode.left);
+      this.createNewTree(oldNode.right);
+    }
+  }
+  
+  FizzBuzzTree (tree){
+    if(tree && tree.root){
+      this.createNewTree(tree.root);
+    }
+    return tree;
+  }
 }
 
 module.exports = BinaryTree, fizzBuzz;
