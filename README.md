@@ -27,7 +27,8 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 15    | [Binary Tree and BST Implementation](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/tree/Data-Structures/tree/README.md). 
  class 16    | [Find the Maximum Value in a Binary Tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/find-maximum-binary-tree/Data-Structures/tree/README.md). 
  class 17    | [Breadth-first-Traversal](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/breadth-first-tree/README.md). 
- class 18    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/ fizzbuzz-tree/challenges/fizzBuzzTree/README.md).  
+ class 18    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/fizzbuzz-tree/challenges/fizzBuzzTree/README.md).  
+ class 19    | [Mock Interviews](https://repl.it/join/aqaqrghd-abdallahobaid).   
 
 
  ![Logic](./assets/Sloving-porb.gif)
