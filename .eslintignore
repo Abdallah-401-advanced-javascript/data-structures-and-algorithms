@@ -1,0 +1,9 @@
+**/node_modules/*
+**/docs/*
+**/vendor/*
+**/*.min.js
+**/coverage/*
+**/build/*
+**/build/*
+*.test.js
+code04.js
