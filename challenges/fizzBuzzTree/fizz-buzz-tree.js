@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-else-if */
 'use strict';
 
 let fizzBuzz = function(tree) {
