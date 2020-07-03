@@ -1,7 +1,7 @@
 'use strict';
 
 const BinaryTree = require('../fizz-buzz-tree');
-const Node = require('../node');
+// const Node = require('../node.js');
 
 describe('Binary Tree', ()=> {
 
