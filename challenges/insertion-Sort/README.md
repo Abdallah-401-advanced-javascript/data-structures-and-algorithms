@@ -12,3 +12,4 @@ Learn more about how the insertion sort.
 
 ## Solution
 ![UML Diagram](../../assets/insertion-Sort.jpg)
+![BLOG](./BLOG.md)
