@@ -8,7 +8,9 @@ Solve the challenge.
 ## Approach & Efficiency
 Learn more about how the insertion sort.
 
-## ![Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/20/checks?check_run_id=748532367)
+## [Action flow](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/pull/20/checks?check_run_id=748532367)
 
 ## Solution
+[BLOG](./BLOG.md)
 ![UML Diagram](../../assets/insertion-Sort.jpg)
+
