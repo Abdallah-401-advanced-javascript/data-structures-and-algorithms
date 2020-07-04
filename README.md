@@ -30,6 +30,7 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 18    | [fizzbuzz-tree](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/fizzbuzz-tree/challenges/fizzBuzzTree/README.md).  
  class 19    | [Mock Interviews](https://repl.it/join/aqaqrghd-abdallahobaid).   
  class 26    | [Insertion-Sort](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/insertion-Sort/challenges/insertion-Sort/README.md).   
+ class 27    | [Merge Sort](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/Mergesort/challenges/mergeSort/README.md).    
 
 
  ![Logic](./assets/Sloving-porb.gif)
