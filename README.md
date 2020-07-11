@@ -32,5 +32,6 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 26    | [Insertion-Sort](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/insertion-Sort/challenges/insertion-Sort/README.md).   
  class 27    | [Merge Sort](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/Mergesort/challenges/mergeSort/README.md).    
  class 28    | [Quick Sort](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/quick-Sort/challenges/quickSort/README.md).   
+ class 30    | [Hash table](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/hashtable/Data-Structures/hashtable/README.md).    
 
  ![Logic](./assets/Sloving-porb.gif)
