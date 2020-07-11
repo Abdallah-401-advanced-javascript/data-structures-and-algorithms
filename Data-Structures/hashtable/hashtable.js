@@ -92,42 +92,42 @@ class Hashmap {
   
 }
 
-function repeatedWord (str){
-  let arrStr = str.split(',').join('').toLowerCase().split(' ');
-  let map = new Hashmap(1024);
-  // console.log(arrStr);
-  for(let i=0 ; i< arrStr.length;i++){
-    if (map.get(arrStr[i])=='Kill your self the key not found'){
-      map.set(arrStr[i], 'any value');
-    }else{
-      return  arrStr[i];
-    }
-  }
-  return 'All unique';
-}
+// function repeatedWord (str){
+//   let arrStr = str.split(',').join('').toLowerCase().split(' ');
+//   let map = new Hashmap(1024);
+//   // console.log(arrStr);
+//   for(let i=0 ; i< arrStr.length;i++){
+//     if (map.get(arrStr[i])=='Kill your self the key not found'){
+//       map.set(arrStr[i], 'any value');
+//     }else{
+//       return  arrStr[i];
+//     }
+//   }
+//   return 'All unique';
+// }
 
-function combine(myHash1,myHash2){
-  let arr=[];
-  myHash1.map.forEach( (data, i )=> {
-    let key = Object.keys(data.values()[0])[0];
-    data && arr.push([key]);
-    data && data.values().forEach( (ele,i)=>{
-      arr[arr.length - 1].push(ele[key]);
-    });
-  });
-  arr.forEach((data, i )=> {
-    if (myHash2 && myHash2.get(data[0]) != 'Kill your self the key not found'){
-      myHash2.get(data[0]).forEach( (ele,i)=>{
-        data.push(ele[data[0]]);
-      });
-    }else{
-      data.push(null);
-    }
-  });
-  return arr;
-}
+// function combine(myHash1,myHash2){
+//   let arr=[];
+//   myHash1.map.forEach( (data, i )=> {
+//     let key = Object.keys(data.values()[0])[0];
+//     data && arr.push([key]);
+//     data && data.values().forEach( (ele,i)=>{
+//       arr[arr.length - 1].push(ele[key]);
+//     });
+//   });
+//   arr.forEach((data, i )=> {
+//     if (myHash2 && myHash2.get(data[0]) != 'Kill your self the key not found'){
+//       myHash2.get(data[0]).forEach( (ele,i)=>{
+//         data.push(ele[data[0]]);
+//       });
+//     }else{
+//       data.push(null);
+//     }
+//   });
+//   return arr;
+// }
 
-
+// Tests
 let myHash = new Hashmap(1024);
 myHash.set('Cat', 'Paghera');
 myHash.set('Owner' ,'Israa');
@@ -141,25 +141,27 @@ console.log(myHash.get('not in the map'));
 console.log(myHash.contains('Owner'));
 console.log(myHash.contains('not in the map'));
 
-// Tests:
-let str1 = 'Once upon a time, there was a brave princess who...';
-let str2 = 'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only...';
-let str3 = 'It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York..';
-let str4 = 'Donald the duck';
-console.log(repeatedWord(str1));
-console.log(repeatedWord(str2),'str2');
-console.log(repeatedWord(str3));
-console.log(repeatedWord(str4));
+// // Tests:
+// let str1 = 'Once upon a time, there was a brave princess who...';
+// let str2 = 'It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way – in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only...';
+// let str3 = 'It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York..';
+// let str4 = 'Donald the duck';
+// console.log(repeatedWord(str1));
+// console.log(repeatedWord(str2),'str2');
+// console.log(repeatedWord(str3));
+// console.log(repeatedWord(str4));
 
-let myHash1 = new Hashmap(1024);
-myHash1.set('Cat', 'Paghera');
-myHash1.set('C', 'Paghera');
-myHash1.set('Owner' ,'Israa');
-let myHash2 = new Hashmap(1024);
-myHash2.set('Cat', 'Hello');
-myHash2.set('Owner' ,'hi');
-myHash2.set('Owner' ,'hi');
-console.log('myHash1',myHash1);
-console.log('myHash2',myHash2);
-console.log('wqew',myHash2.map[957]);
-console.log(combine(myHash1,myHash2));
+// let myHash1 = new Hashmap(1024);
+// myHash1.set('Cat', 'Paghera');
+// myHash1.set('C', 'Paghera');
+// myHash1.set('Owner' ,'Israa');
+// let myHash2 = new Hashmap(1024);
+// myHash2.set('Cat', 'Hello');
+// myHash2.set('Owner' ,'hi');
+// myHash2.set('Owner' ,'hi');
+// console.log('myHash1',myHash1);
+// console.log('myHash2',myHash2);
+// console.log('wqew',myHash2.map[957]);
+// console.log(combine(myHash1,myHash2));
+
+module.exports=Hashmap;
