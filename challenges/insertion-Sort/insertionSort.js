@@ -12,7 +12,7 @@ obj.insertionSort=function(arr){
       j = j - 1;
     }}
   return arr ;
-}
+};
 console.log(obj.insertionSort([8,4,23,42,16,15]));
 console.log(obj.insertionSort([20,18,12,8,5,-2]));   
 console.log(obj.insertionSort([5,12,7,5,5,7]));
