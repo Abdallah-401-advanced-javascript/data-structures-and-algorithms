@@ -38,5 +38,6 @@ Home         | [Home](https://github.com/Abdallah-401-advanced-javascript/data-s
  class 33    | [Left Join](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/left-join/Data-Structures/leftJoin/README.md).
  class 35    | [Implement the Graph](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/graph/Data-Structures/graph/README.md).
  class 36    | [Breadth-first-graph](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/breadth-first-graph/Data-Structures/breadthFirst-graph/README.md).
+ class 37    | [get-edges](https://github.com/Abdallah-401-advanced-javascript/data-structures-and-algorithms/blob/get-edges/Data-Structures/getEdge/README.md). 
 
- ![Logic](./assets/breadth-first-graph.jpg)
+ ![Logic](./assets/Sloving-porb.gif)
