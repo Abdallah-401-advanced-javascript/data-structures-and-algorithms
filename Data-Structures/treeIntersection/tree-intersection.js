@@ -102,12 +102,15 @@ seven.right = nine;
 three.left = four;
 three.right = five;
 let tree1= new BinaryTree(one);
-console.log('tree.inOrder(1)',tree1.postOrderObj(43543));
-// tree1.preOrder(2);
-// tree1.preOrder(3);
-// tree1.preOrder(4);
-// tree1.preOrder(5);
-// tree1.preOrder(6);
+
+console.log('tree1.preOrder()',tree1.preOrder());
+console.log('postOrder()',tree1.postOrder());
+console.log('inOrder()',tree1.inOrder());
+console.log('tree.inOrder()',tree1.postOrderObj());
+tree1.preOrder();
+tree1.preOrder();
+tree1.preOrder();
+tree1.preOrder();
 console.log(tree1);
 
 let one2 = new Node(1);
